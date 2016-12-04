@@ -22,7 +22,7 @@ Our sales team has recently been contacted by a large restaurant reservation web
 - Download [the project files](/project-files.zip)
 - Push the provided dataset to an Algolia index
 - Produce the HTML markup and CSS needed to reproduce the UI provided by the client. To do so, you can write vanilla CSS or with a processor of your choice. We've provided configs for Sass and LESS
-- Using the Algolia JS Helper ([documentation](https://www.algolia.com/doc/guides/search/instant-search/algoliahelperjs)), implement an as-you-type search experience that enables users to easily find restaurants: both by passing a search query and/or filtering on the &ldquo;type of cuisine&rdquo;
+- Using the Algolia JS Helper, implement an as-you-type search experience that enables users to easily find restaurants: both by passing a search query and/or filtering on the &ldquo;type of cuisine&rdquo;
 - Leverage the user&rsquo;s location to show restaurants closer to them higher in the results
 
 ![Screenshot](full-version.png)
@@ -46,6 +46,7 @@ Once you're happy with what you've done
 
 - Create a Github public repository to host the code (including the import script)
 - Publish it using GitHub's gh-pages so we can interact with it
+- Assignments that do not follow instructions above are not likely to be reviewed&mdash;so wow us!
 
 Happy coding!
 
