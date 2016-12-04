@@ -46,7 +46,7 @@ Once you're happy with what you've done
 
 - Create a Github public repository to host the code (including the import script)
 - Publish it using GitHub's gh-pages so we can interact with it
-- Assignments that do not follow instructions above are not likely to be reviewed&mdash;so wow us!
+- Assignments that do not follow at least the instructions above are not likely to be reviewed highly&mdash;so wow us!
 
 Happy coding!
 
