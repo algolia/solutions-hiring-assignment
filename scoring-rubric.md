@@ -26,7 +26,7 @@
 
 ## Overall Impressions
 
-| Does the candidate demonstrate being in the top 90% of: | Yes | No |
+| Does the candidate demonstrate being in the top 10% of: | Yes | No |
 | :------------- | :------------- | :------------- |
 | Technical aptitude | | |
 | UX | | |
