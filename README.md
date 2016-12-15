@@ -37,15 +37,15 @@ Our sales team has recently been contacted by a large restaurant reservation web
 - The project is already set up for you; if you&rsquo;re using Sass or LESS you shouldn&rsquo;t have to configure anything
 - Feel free to use any front-end tooling with which you&rsquo;re most comfortable
 - The blue highlight in the sidebar is an active/hover state
-- For payment options, we should only see: AMEX/American Express, Visa, Discover, and MasterCard
+- For payment options, we should only have: AMEX/American Express, Visa, Discover, and MasterCard
   - For our purpose, Diners Club and Carte Blanche are Discover cards
 
 #### Deliverable
 
 Once you're happy with what you've done
 
-- Create a Github public repository to host the code (including the import script)
 - Publish it using GitHub's gh-pages so we can interact with it
+- Send us a link to your finished project via email
 - Assignments that do not follow at least the instructions above are not likely to be reviewed highly&mdash;so wow us!
 
 Happy coding!
