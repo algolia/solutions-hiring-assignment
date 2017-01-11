@@ -8,11 +8,6 @@ This is the hiring assignment for the Solutions Team at Algolia. It&rsquo;s inte
 
 If you want to know how we will judge the assignment, you can [view our scoring rubric](scoring-rubric.md).
 
-## Communication Project Instructions
-
-- View the [example customer questions](customer-questions.md)
-- Answer them using the Algolia documentation and provide us your answers as a `.txt` file when you email us the rest of your assignment
-
 ## Tech and UX Project Instructions
 
 Our sales team has recently been contacted by a large restaurant reservation website, for whom they have identified it to be strategic to build a demo. As a Solutions Engineer, you&rsquo;re asked to build a small prototype that&mdash;using the dataset and UI have provided us&mdash;highlights the benefits of a great search experience.
