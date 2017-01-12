@@ -5,7 +5,7 @@ I'm new to search engines, and there are a lot of concepts I'm not educated on. 
 - Records
 - Indexing
 
-I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking". 
+I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking." 
 
 Cheers,
 George
