@@ -21,7 +21,7 @@ Matt
 Question 3:
 Hi,
 
-I need customization but I don't have a developer for this purpose. Will Algolia help me write code for my implementation?
+I'm looking to integrate Algolia in my website. Can you explain what this process looks like? Will Algolia help me write code for my implementation?
 
 Regards,
 Leo
