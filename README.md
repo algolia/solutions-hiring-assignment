@@ -38,8 +38,10 @@ Our sales team has recently been contacted by a large restaurant reservation web
 - The project is already set up for you; if you&rsquo;re using Sass or LESS you shouldn&rsquo;t have to configure anything
 - Feel free to use any front-end tooling with which you&rsquo;re most comfortable
 - The blue highlight in the sidebar is an active/hover state
-- For payment options, we should only have: AMEX/American Express, Visa, Discover, and MasterCard
+- For payment options, we should **only** have: AMEX/American Express, Visa, Discover, and MasterCard
   - For our purpose, Diners Club and Carte Blanche are Discover cards
+- When you sign up for an Algolia account, please put `Interview Candidate` in the company field
+  - This helps our sales team know someone's already speaking with you
 
 #### Deliverable
 
