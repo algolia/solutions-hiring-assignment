@@ -35,8 +35,7 @@ Our sales team has recently been contacted by a large restaurant reservation web
 - The dataset given by the client is available in the `./resources/dataset folder`. They have been able to extract 5000 restaurants from their database: `restaurants_list.json`. Unfortunately, because of some system complexity on their side, they haven&rsquo;t been able to provide everything in one file only. They have sent us another file named `restaurants_info.csv` that contains additional information for all the extracted restaurants.
   - You&rsquo;ll need to manipulate both data files in order to have access to the &ldquo;type of cuisine.&rdquo;
   - Please include your data manipulation and import script in your Git repository
-- The project is already set up for you; if you&rsquo;re using Sass or LESS you shouldn&rsquo;t have to configure anything
-- Feel free to use any front-end tooling with which you&rsquo;re most comfortable
+- **Feel free to use any front-end tooling with which you&rsquo;re most comfortable**
 - The blue highlight in the sidebar is an active/hover state
 - For payment options, we should **only** have: AMEX/American Express, Visa, Discover, and MasterCard
   - For our purpose, Diners Club and Carte Blanche are Discover cards
