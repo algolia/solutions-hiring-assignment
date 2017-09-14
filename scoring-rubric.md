@@ -13,13 +13,13 @@
 | Account for different use cases (e.g. mobile, touch) | | |
 | Complete the assignment in an efficient manner? | | |
 | Go beyond what was asked of them? | | | |
+| Ask for clarification when necessary? | | |
 
 ## “Customer” Questions
 
 | Did the candidate: | Yes | No |
 | :------------- | :------------- | :------------- |
 | Answer the questions correctly? | | |
-| Ask for clarification when necessary? | | |
 | Answer in a succinct manner? | | |
 | Have minimal spelling, grammar, or formatting mistakes? | | |
 | Employ a friendly, helpful tone? | | | |
