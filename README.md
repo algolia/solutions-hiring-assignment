@@ -31,7 +31,8 @@ Our sales team has recently been contacted by a large restaurant reservation web
 
 #### Important Notes
 
-- Graphical resources, including the Sketch mockup, are provided in the `./resources` folder
+- Graphical resources, including the Sketch mock-up, are provided in the `./resources` folder
+- The mock-up is meant to serve as guidance -- if you have a UI/UX that you believe improves upon the mock-up feel free to implement it, and be ready to explain your choice to do so
 - The dataset given by the client is available in the `./resources/dataset folder`. They have been able to extract 5000 restaurants from their database: `restaurants_list.json`. Unfortunately, because of some system complexity on their side, they haven&rsquo;t been able to provide everything in one file only. They have sent us another file named `restaurants_info.csv` that contains additional information for all the extracted restaurants.
   - You&rsquo;ll need to manipulate both data files in order to have access to the &ldquo;type of cuisine.&rdquo;
   - Please include your data manipulation and import script in your Git repository
