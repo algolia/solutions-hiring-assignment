@@ -14,6 +14,7 @@
 | Complete the assignment in an efficient manner? | | |
 | Go beyond what was asked of them? | | | |
 | Ask for clarification when necessary? | | |
+| How long did the candidate spend on the assignment (in hours)? | | |
 
 ## “Customer” Questions
 
