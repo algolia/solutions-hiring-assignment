@@ -6,6 +6,8 @@ This is the hiring assignment for the Solutions Team at Algolia. It&rsquo;s inte
 - User Experience
 - Communication
 
+*Important:* We ask that you do not spend more than 6 hours on the assignment. We understand that you might not be able to complete the entirety of it in that time, and that's completely fine. Do your best to complete as much of the assignment as you can given the time constraints. We'd prefer to an incomplete assignment that's well done, with high quality code, and thoughtful responses, than an completed, but sloppy, assignment.  
+
 If you want to know how we will judge the assignment, you can [view our scoring rubric](scoring-rubric.md).
 
 ## Communication Project Instructions
