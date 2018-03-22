@@ -11,7 +11,7 @@ If you want to know how we will judge the assignment, you can [view our scoring 
 ## Communication Project Instructions
 
 - View the [example customer questions](customer-questions.md)
-- Answer them using the Algolia documentation and provide us your answers as a `.txt` file when you email us the rest of your assignment
+- Answer them using the Algolia documentation and provide us your answers as a `.txt` file when you email us the rest of your assignment. Please also include them in the same repository as the rest of the assignment.
 
 ## Tech and UX Project Instructions
 
