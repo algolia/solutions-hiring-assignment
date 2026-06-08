@@ -1,56 +1,220 @@
-# Solutions Team Hiring Assignment
+# Solutions Engineer Hiring Assignment
 
-This is the hiring assignment for the Solutions Team at Algolia. It&rsquo;s intended to mimic work you might do here, while giving us an understanding of your skills in:
+This is the hiring assignment for the Solutions Engineering team at Algolia.
 
-- Coding
-- User Experience
-- Communication
+The goal of this exercise is  to test your ability to understand technical concepts, explain them clearly, manipulate data and build demos (with your preferred tooling). We expect strong SEs to use the tools available to them to move faster, explore ideas, and deliver better outcomes for prospects.
 
-If you want to know how we will judge the assignment, you can [view our scoring rubric](scoring-rubric.md).
+What we care about is your ability to:
+
+- Understand Algolia's core technical concepts
+- Transform messy customer data into a useful search index
+- Design a relevant and compelling search and discovery experience
+- Make thoughtful architecture and implementation decisions
+- Evaluate search quality and tune configuration accordingly
+- Communicate your choices clearly to both technical and non-technical audiences
+
+You are welcome, and encouraged, to use AI tools to help you write code, manipulate data, generate UI ideas, debug, or accelerate implementation. Be ready to explain the concepts, architecture, trade-offs, and decisions behind what you built.
+
+
+
+## Prospect Context: Account Executive Discovery Notes
+
+Before starting the assignment, assume you have received the following discovery notes from the Account Executive working on the opportunity.
+
+The prospect is **OpenTable**, a large restaurant reservation platform. They currently rely on an in-house search and discovery experience built on top of Elasticsearch. This search stack was originally developed around 10 years ago and is now considered old, difficult to evolve, and no longer aligned with the experience they want to offer users.
+
+OpenTable is looking for a more modern and higher-quality search and discovery experience. Their goal is to increase usage of the platform and improve conversion from search or discovery sessions into restaurant bookings.
+
+### User Personas
+
+OpenTable has two main types of users.
+
+#### 1. Users who know exactly what they are looking for
+
+These users come to OpenTable knowing what they are looking for. They often know the restaurant name and want to find the right restaurant quickly so they can book a table.
+
+Current pain points include:
+
+- Restaurant names can be hard to spell or remember
+- Typos, concatenated words, partial names, or alternate spellings can lead to poor results
+- Some restaurant chains have multiple locations in the same city, making it hard for users to identify the correct one
+
+For this persona, the experience should make known-item search fast, forgiving, and precise.
+
+#### 2. Users who do not know what they are looking for yet
+
+These users come to OpenTable to explore. They may not have a specific restaurant in mind and instead want to browse, compare options, and get inspired.
+
+Current pain points include:
+
+- The current experience does not support discovery well
+- Users have limited ways to browse, refine, or get inspired
+- The experience feels less modern than what users expect from consumer discovery platforms
+
+For this persona, the experience should help users discover restaurants using useful browsing, filtering, sorting, and search experiences.
+
+### Business Goals
+
+OpenTable wants to improve the experience for both users who know what they are looking for and users who are exploring options.
+
+The desired outcomes are:
+
+- Higher search quality
+- A more modern user experience
+- Better support for restaurant discovery and inspiration
+- Increased platform usage
+- Increased conversion from search or browsing sessions into bookings
+
+As you design your solution, use this discovery context to guide your decisions. Your demo should not only show that Algolia can return results; it should show how Algolia could help OpenTable create a better end-user experience and achieve these business goals.
 
 ## Communication Project Instructions
 
-- View the [example customer questions](customer-questions.md)
-- Answer them using the Algolia documentation and provide us your answers as a `.txt` file when you email us the rest of your assignment. Please also include them in the same repository as the rest of the assignment.
+View the [example customer questions](customer-questions.md) and answer them using the Algolia documentation.
 
-## Tech and UX Project Instructions
+Please include your answers in your repository. A `.txt`, `.md`, or similar plain-text format is fine.
 
-Our sales team has recently been contacted by a large restaurant reservation website, for whom they have identified it to be strategic to build a demo. As a Solutions Engineer, you&rsquo;re asked to build a small prototype that&mdash;using the dataset and UI have provided us&mdash;highlights the benefits of a great search experience.
+We are evaluating how clearly you can explain technical topics to a customer. Strong answers should be accurate, concise, and adapted to the customer's likely level of understanding.
 
-**Important**: Do not fork this repository to create your assignment. Doing so will wake a bot that prints out your code, immediately sends it to the shredder, and archives your application in our applicant tracking system. And anyway we&rsquo;d rather give everyone an equal shot to show us what they can do.
+## Technical and UX Project Instructions
 
-- Download [the project files](/project-files.zip)
-- Push the provided dataset to an Algolia index
-- Produce the HTML markup and CSS needed to reproduce the UI provided by the client. To do so, you can write vanilla CSS or with a processor of your choice.
-- Using the [Algolia JS Helper](https://community.algolia.com/algoliasearch-helper-js/) and without using instantsearch.js, implement an as-you-type search experience that enables users to easily find restaurants: both by passing a search query and/or filtering on the &ldquo;type of cuisine&rdquo;
-- Leverage the user&rsquo;s location to show restaurants closer to them higher in the results&mdash;with a fallback if they dont&rsquo;t allow for geolocation permissions in the browser
+Our sales team has recently been contacted by OpenTable.&#x20;
 
-![Screenshot](full-version.png)
+As a Solutions Engineer, your task is to build a small interactive prototype using the provided restaurant dataset. Your demo should highlight the value of a great search and discovery experience, using the discovery notes above as your guide.
 
-*Screenshot of a target UI*
+This is not a pixel-perfect implementation exercise. The provided mock-up represents OpenTable's current experience. It is included to give you context on what they have today, but the prospect does not want to simply recreate this experience. They are looking for something better: a more modern, more useful, and more compelling search and discovery experience.
 
-#### Important Notes
+We encourage you to innovate. Show us how you would bring a prospect a vision, not just a functional search box.
 
-- Graphical resources, including the Sketch mock-up, are provided in the `./resources` folder
-- The mock-up is meant to serve as guidance -- if you have a UI/UX that you believe improves upon the mock-up feel free to implement it, and be ready to explain your choice to do so
-- The dataset given by the client is available in the `./resources/dataset folder`. They have been able to extract 5000 restaurants from their database: `restaurants_list.json`. Unfortunately, because of some system complexity on their side, they haven&rsquo;t been able to provide everything in one file only. They have sent us another file named `restaurants_info.csv` that contains additional information for all the extracted restaurants.
-  - You&rsquo;ll need to manipulate both data files in order to have access to the &ldquo;type of cuisine.&rdquo;
-  - Please include your data manipulation and import script in your Git repository
-- **Feel free to use any front-end tooling with which you&rsquo;re most comfortable**
-- The blue highlight in the sidebar is an active/hover state
-- For payment options, we should **only** have: AMEX/American Express, Visa, Discover, and MasterCard
-  - For our purpose, Diners Club and Carte Blanche are Discover cards
+**Important:** Do not fork this repository to create your assignment. Create your own private or public repository for your work and send us the link when you submit.
+
+## What You Should Build
+
+Download [the project files](/project-files.zip), then build a working restaurant discovery demo.
+
+Your demo should include the following:
+
+- An Algolia index populated with the provided restaurant data
+- A data preparation process that combines and cleans the provided files
+- A search interface that lets users find restaurants through text search
+- Relevant filtering or refinement, including cuisine type
+- Location-aware ranking, or a thoughtful fallback if browser geolocation is not available
+- Search configuration that you have tested and tuned based on the dataset
+- A user experience that demonstrates how OpenTable's search and discovery experience could be improved for both known-item search and open-ended discovery
+
+You may use any front-end framework, tooling, UI library, or AI coding assistant you prefer. However, for the core search implementation, please use the [Algolia JS Helper](https://community.algolia.com/algoliasearch-helper-js/) and do not use InstantSearch.js.
+
+This constraint is intentional: we want to understand how you think about search state, queries, refinements, results, and UI behavior rather than only how you assemble pre-built widgets.
+
+Choose the implementation approach that lets you best demonstrate your understanding of Algolia and your ability to deliver value quickly.
+
+## Data Requirements
+
+The dataset is available in the `./resources/dataset` folder.
+
+The client has provided two files:
+
+- `restaurants_list.json`, containing approximately 5,000 restaurants
+- `restaurants_info.csv`, containing additional information about those restaurants
+
+Because the data is split across files, you will need to manipulate and combine them before indexing.
+
+Your indexed records should include the information needed to support the search experience, including cuisine type.
+
+Please include your data manipulation and import script in your repository. AI assistance is allowed, but you should be able to explain:
+
+- How the files were joined
+- What transformations or cleanup you performed
+- Which attributes you indexed
+- Which attributes you made searchable, facetable, or ranking-related
+- Any assumptions you made about the data
+
+For payment options, the demo should only expose the following normalized values:
+
+- AMEX / American Express
+- Visa
+- Discover
+- MasterCard
+
+For this assignment, Diners Club and Carte Blanche should be treated as Discover cards.
+
+Feel free to enrich the data with any additional information you think would be useful for discovery purposes
+
+## Search and Relevance Requirements
+
+Do not stop once search technically works. Test it as if you were preparing for a customer meeting.
+
+Try representative searches and refinements, inspect the results, and adjust the index configuration where needed.
+
+We are interested in how you think about relevance. Your submission should show evidence that you considered topics such as:
+
+- Searchable attributes
+- Ranking and custom ranking
+- Facets and filters
+- Geo-search or location-based relevance
+- Typo tolerance and query behavior
+- Result ordering and perceived quality
+- How the experience should behave when the query is broad, specific, misspelled, ambiguous, location-sensitive, or empty
+
+You do not need to find a perfect configuration. We want to see that you can reason about search quality, test your assumptions, and improve the experience iteratively.
+
+## UX and Demo Expectations
+
+The mock-up represents an example of what OpenTable experience could look like. You can use this as inspiration or decide to build a completely different search and discovery experience. You should always be able to justify how the new search experience can answer the pains and limitations that OpenTable currently have.
+
+## Important Notes
+
+- Graphical resources, including the mock-up, are provided in the `./resources` folder
+- The mock-up shows the current experience; it is not the desired future experience. You are encouraged to improve on it or take a different direction
+- Feel free to use any front-end tooling, framework, or AI-assisted workflow with which you are comfortable
+- Please make sure your demo is easy for us to run or access
 - When you sign up for an Algolia account, please put `Interview Candidate` in the company field
-  - This helps our sales team know someone's already speaking with you
+  - This helps our sales team know someone is already speaking with you
 
-#### Deliverable
+## Deliverables
 
-Once you're happy with what you've done
+When you are ready to submit, please send us:
 
-- Publish it using GitHub's gh-pages so we can interact with it
-- Send us a link to your finished project via email
-- Assignments that do not follow at least the instructions above are not likely to be reviewed highly&mdash;so wow us!
+- A link to the live demo, for example via GitHub Pages, Vercel, Netlify, or another hosting option
+- A link to your Git repository
+- Your answers to the communication project questions
+- Clear setup instructions if the project needs to be run locally
+- A short explanation of your approach
 
-Happy coding!
+## What Happens Next
 
-Note: The provided dataset has been created using the https://github.com/sosedoff/opentable project.
+If you pass the technical assignment step, there will be two follow-up interview calls.
+
+### 1. Technical Debrief
+
+The first call will be a technical debrief.
+
+You will have 20-25 minutes to explain what you built, including:
+
+- The technical choices you made
+- Why you built the solution the way you did
+- How you structured the data and indexed it in Algolia
+- How you configured Algolia and tuned relevance
+- Any problems, trade-offs, or challenges you encountered while building the demo
+- What you would improve with more time
+
+We will then ask questions to better understand your implementation and challenge some of your choices. You should also be prepared to show the front-end experience and the Algolia configuration, and explain why your choices make sense for a prospect like OpenTable.
+
+### 2. Mock Customer Call
+
+The second call will be a 45-minute mock customer call.
+
+In this scenario, two Algolia interviewers will play the roles of OpenTable stakeholders: typically a CTO and a CPO.
+
+You should prepare to present your demo as if you were the Solutions Engineer on the opportunity. You will have around 20-25 minutes to:
+
+- Set the context for the conversation
+- Ask any additional discovery questions you think are important
+- Present the demo you built
+- Explain how your solution addresses OpenTable's user pains and business goals
+- Highlight the Algolia capabilities and configuration choices that matter most for this prospect
+
+The remaining 10-15 minutes will be used for questions and discussion.
+
+The goal of this call is not only to evaluate the demo itself, but also how you run a customer-facing technical conversation: how you connect the solution to the prospect's needs, how you explain technical concepts, and how you handle questions from business and technical stakeholders.
+
+Have fun with the assignment. We are excited to see how you would imagine a better restaurant discovery experience.
