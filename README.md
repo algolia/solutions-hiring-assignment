@@ -15,8 +15,6 @@ What we care about is your ability to:
 
 You are welcome, and encouraged, to use AI tools to help you write code, manipulate data, generate UI ideas, debug, or accelerate implementation. Be ready to explain the concepts, architecture, trade-offs, and decisions behind what you built.
 
-
-
 ## Prospect Context: Account Executive Discovery Notes
 
 Before starting the assignment, assume you have received the following discovery notes from the Account Executive working on the opportunity.
@@ -157,18 +155,6 @@ We are interested in how you think about relevance. Your submission should show 
 
 You do not need to find a perfect configuration. We want to see that you can reason about search quality, test your assumptions, and improve the experience iteratively.
 
-## UX and Demo Expectations
-
-The mock-up represents an example of what OpenTable experience could look like. You can use this as inspiration or decide to build a completely different search and discovery experience. You should always be able to justify how the new search experience can answer the pains and limitations that OpenTable currently have.
-
-## Important Notes
-
-- Graphical resources, including the mock-up, are provided in the `./resources` folder
-- The mock-up shows the current experience; it is not the desired future experience. You are encouraged to improve on it or take a different direction
-- Feel free to use any front-end tooling, framework, or AI-assisted workflow with which you are comfortable
-- Please make sure your demo is easy for us to run or access
-- When you sign up for an Algolia account, please put `Interview Candidate` in the company field
-  - This helps our sales team know someone is already speaking with you
 
 ## Deliverables
 
@@ -177,7 +163,6 @@ When you are ready to submit, please send us:
 - A link to the live demo, for example via GitHub Pages, Vercel, Netlify, or another hosting option
 - A link to your Git repository
 - Your answers to the communication project questions
-- Clear setup instructions if the project needs to be run locally
 - A short explanation of your approach
 
 ## What Happens Next
