@@ -101,10 +101,6 @@ Your demo should include the following:
 - Search configuration that you have tested and tuned based on the dataset
 - A user experience that demonstrates how OpenTable's search and discovery experience could be improved for both known-item search and open-ended discovery
 
-You may use any front-end framework, tooling, UI library, or AI coding assistant you prefer. However, for the core search implementation, please use the [Algolia JS Helper](https://community.algolia.com/algoliasearch-helper-js/) and do not use InstantSearch.js.
-
-This constraint is intentional: we want to understand how you think about search state, queries, refinements, results, and UI behavior rather than only how you assemble pre-built widgets.
-
 Choose the implementation approach that lets you best demonstrate your understanding of Algolia and your ability to deliver value quickly.
 
 ## Data Requirements
