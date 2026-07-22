@@ -19,14 +19,6 @@ You are welcome, and encouraged, to use AI tools to help you write code, manipul
 
 Please refer to prospect-context.md
 
-## Communication Project Instructions
-
-View the [example customer questions](customer-questions.md) and answer them using the Algolia documentation.
-
-Please include your answers in your repository. A `.txt`, `.md`, or similar plain-text format is fine.
-
-We are evaluating how clearly you can explain technical topics to a customer. Strong answers should be accurate, concise, and adapted to the customer's likely level of understanding.
-
 ## Technical and UX Project Instructions
 
 Our sales team has recently been contacted by OpenTable.&#x20;
@@ -99,11 +91,13 @@ You do not need to find a perfect configuration. We want to see that you can rea
 
 ## Deliverables
 
-When you are ready to submit, please send us:
+From the Algolia dashboard provide personification access for our team
+  - Navigate to Settings → Support Access 
+  - Enable "Allow Algolia employees to access my account"
 
+When you are ready to submit, please send us:
 - A link to the live demo, for example via GitHub Pages, Vercel, Netlify, or another hosting option
 - A link to your Git repository
-- Your answers to the communication project questions
 - A short explanation of your approach
 
 ## What Happens Next
