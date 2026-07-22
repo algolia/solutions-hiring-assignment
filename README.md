@@ -108,14 +108,5 @@ When you are ready to submit, please send us:
 
 ## What Happens Next
 
-If you pass the technical assignment step, there will be two follow-up interview calls.
-
-### 1. Technical Debrief
-
 Please refer to interview-next-steps.md
 
-The remaining 10-15 minutes will be used for questions and discussion.
-
-The goal of this call is not only to evaluate the demo itself, but also how you run a customer-facing technical conversation: how you connect the solution to the prospect's needs, how you explain technical concepts, and how you handle questions from business and technical stakeholders.
-
-Have fun with the assignment. We are excited to see how you would imagine a better restaurant discovery experience.
