@@ -128,15 +128,6 @@ Please include your data manipulation and import script in your repository. AI a
 - Which attributes you made searchable, facetable, or ranking-related
 - Any assumptions you made about the data
 
-For payment options, the demo should only expose the following normalized values:
-
-- AMEX / American Express
-- Visa
-- Discover
-- MasterCard
-
-For this assignment, Diners Club and Carte Blanche should be treated as Discover cards.
-
 Feel free to enrich the data with any additional information you think would be useful for discovery purposes
 
 ## Search and Relevance Requirements
