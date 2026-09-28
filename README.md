@@ -4,7 +4,7 @@ This is the hiring assignment for the Solutions Engineering team at Algolia.
 
 The goal of this exercise is to evaluate your ability to understand technical concepts, work with imperfect customer data, build a compelling search experience, and clearly explain the decisions behind your implementation.
 
-## Overview / TL;DR
+## Overview
 
 At a high level, we are asking you to:
 
