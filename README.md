@@ -2,26 +2,28 @@
 
 This is the hiring assignment for the Solutions Engineering team at Algolia.
 
-The goal of this exercise is  to test your ability to understand technical concepts, explain them clearly, manipulate data and build demos (with your preferred tooling). We expect strong SEs to use the tools available to them to move faster, explore ideas, and deliver better outcomes for prospects.
+The goal of this exercise is to evaluate your ability to understand technical concepts, work with imperfect customer data, build a compelling search experience, and clearly explain the decisions behind your implementation.
 
-What we care about is your ability to:
+## Overview / TL;DR
 
-- Understand Algolia's core technical concepts
-- Transform messy customer data into a useful search index
-- Design a relevant and compelling search and discovery experience
-- Make thoughtful architecture and implementation decisions
-- Evaluate search quality and tune configuration accordingly
-- Communicate your choices clearly to both technical and non-technical audiences
+At a high level, we are asking you to:
 
-You are welcome, and encouraged, to use AI tools to help you write code, manipulate data, generate UI ideas, debug, or accelerate implementation. Be ready to explain the concepts, architecture, trade-offs, and decisions behind what you built.
+1. **Build a working search experience** using the provided OpenTable-style restaurant dataset and a free Algolia trial. You may use InstantSearch.js or another frontend approach of your choice, and any language or tooling you prefer for data preparation and indexing.
 
+2. **Own and explain your technical decisions.** In the technical debrief, be prepared to explain what you built, what you changed, challenges you encountered, and why you made specific architecture, data, and search configuration decisions. You are responsible for understanding every configuration or setting applied to your implementation, whether you selected it yourself, found it in documentation, or used AI to recommend or generate it. Understanding the configuration is equally as important as the output.
+
+3. **Go beyond making search technically work.** Explore the dataset, test realistic searches and refinements, identify where results are and are not relevant, and iteratively tune the experience. We want to see how you reason about search quality, not just whether you can create an index and search it.
+
+4. **Use the tools available to you.** Algolia documentation, Algolia AI Assist, coding assistants, and other AI tools are all encouraged for learning, coding, debugging, data manipulation, and exploring configuration options. AI can help you move faster, but you should be able to explain what was implemented, why it is appropriate for this use case, and how it affects the search experience.
+
+5. **Approach the exercise as a Solutions Engineer.** Build and present the experience as if you were preparing for a customer meeting. Connect your implementation, relevance tuning, and product decisions to the customer problems and opportunities described in the assignment, and be prepared to communicate your choices to both technical and non-technical stakeholders.
 ## Prospect Context: Account Executive Discovery Notes
 
 Please refer to prospect-context.md
 
 ## Technical and UX Project Instructions
 
-Our sales team has recently been contacted by OpenTable.&#x20;
+Our sales team has recently been contacted by OpenTable.
 
 As a Solutions Engineer, your task is to build a small interactive prototype using the provided restaurant dataset. Your demo should highlight the value of a great search and discovery experience, using the discovery notes above as your guide.
 
@@ -68,7 +70,7 @@ Please include your data manipulation and import script in your repository. AI a
 - Which attributes you made searchable, facetable, or ranking-related
 - Any assumptions you made about the data
 
-Feel free to enrich the data with any additional information you think would be useful for discovery purposes
+Feel free to enrich the data with any additional information you think would be useful for discovery purposes.
 
 ## Search and Relevance Requirements
 
@@ -88,14 +90,15 @@ We are interested in how you think about relevance. Your submission should show 
 
 You do not need to find a perfect configuration. We want to see that you can reason about search quality, test your assumptions, and improve the experience iteratively.
 
-
 ## Deliverables
 
-From the Algolia dashboard provide personification access for our team
-  - Navigate to Settings → Support Access 
-  - Enable "Allow Algolia employees to access my account"
+From the Algolia dashboard, provide personification access for our team:
+
+- Navigate to Settings → Support Access
+- Enable "Allow Algolia employees to access my account"
 
 When you are ready to submit, please send us:
+
 - A link to the live demo, for example via GitHub Pages, Vercel, Netlify, or another hosting option
 - A link to your Git repository
 - A short explanation of your approach
@@ -103,4 +106,3 @@ When you are ready to submit, please send us:
 ## What Happens Next
 
 Please refer to interview-next-steps.md
-
